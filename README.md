@@ -1,5 +1,4 @@
-Qtrip QA Project Documentation:
------------------------------------------------------------------------------
+QTrip Dynamic Automated Test Cases - Project Report
 
 This project contains automated test cases for the QTrip Dynamic web application, which is designed for users to explore and book travel adventures. The automated tests are built using Java, Selenium WebDriver, TestNG, and integrated with ExtentReports for detailed reporting.
 Project Overview
@@ -9,7 +8,8 @@ QTrip Dynamic is a travel application that allows users to:
   1] Register and log in to their accounts.
   2]Search for cities and apply filters to find travel adventures.
   3] Book travel adventures with details such as guest names and dates.
-  4] View and manage booking history.
+ 4] View and manage booking history.
+
 This automation suite is designed to validate the critical functionalities of the application to ensure it works as expected. The test cases automate the core user journeys and scenarios for regression and acceptance testing.
 
 Features of the Automation Suite
@@ -28,8 +28,8 @@ Features of the Automation Suite
 
    5]Reusable Components:
         Common functionalities (e.g., driver initialization, page object creation) are encapsulated in the BaseTest class.
-        
-   6] Configuration-Driven:
+
+  6] Configuration-Driven:
         Test execution can be adapted easily by configuring parameters like the base URL.
 
 
@@ -106,7 +106,7 @@ The QTrip Dynamic Automated Test Suite ensures the reliability of the applicatio
     Integration with CI/CD pipelines (e.g., Jenkins, GitHub Actions).
     Support for cross-browser testing.
     Enhanced data-driven testing capabilities.
-============================================================================================================================
+
 Explanation: Data Provider Class (DP.java)
 
 The DP class is responsible for reading data from an Excel file and providing it as input to the automated test cases in the QTrip Dynamic project. The use of TestNG's @DataProvider enables parameterized testing by supplying external data to test methods dynamically.
@@ -182,7 +182,7 @@ Advantages
         Supports adding new test cases or scenarios by simply adding new sheets or rows.
   3] Data-Driven Approach:
         Allows running the same test with multiple datasets, ensuring robust validation.
----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 Dependencies
 
 Ensure the following dependencies are included in your pom.xml file:
