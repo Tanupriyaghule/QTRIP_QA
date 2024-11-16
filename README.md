@@ -29,9 +29,10 @@ Features of the Automation Suite
 
    5]Reusable Components:
         Common functionalities (e.g., driver initialization, page object creation) are encapsulated in the BaseTest class.
-
-  6] Configuration-Driven:
+        
+   6] Configuration-Driven:
         Test execution can be adapted easily by configuring parameters like the base URL.
+
 =======================================================================================================================
 Test Case Details:
 Test Case 01: User Registration and Login
