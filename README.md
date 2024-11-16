@@ -10,9 +10,8 @@ QTrip Dynamic is a travel application that allows users to:
   2]Search for cities and apply filters to find travel adventures.
   3] Book travel adventures with details such as guest names and dates.
   4] View and manage booking history.
-
 This automation suite is designed to validate the critical functionalities of the application to ensure it works as expected. The test cases automate the core user journeys and scenarios for regression and acceptance testing.
-----------------------------------------------------------------------------
+
 Features of the Automation Suite
 
   1]Modular Page Object Model (POM):
@@ -33,7 +32,7 @@ Features of the Automation Suite
    6] Configuration-Driven:
         Test execution can be adapted easily by configuring parameters like the base URL.
 
-=======================================================================================================================
+
 Test Case Details:
 Test Case 01: User Registration and Login
 
